@@ -9,3 +9,7 @@ function () {};
 () => {};
 
 spread operator ... Pega um objeto iterável (como um array ou string ) e o desmembra em partes individuais, pode iterar por cada item no caso Array e por cada carcter no caso string
+
+rest parameters ... Usada quando se quer transformar os argumentos de uma função em um array
+
+(param1, param2, ...restParams) => (){}

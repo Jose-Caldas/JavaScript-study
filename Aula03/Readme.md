@@ -1,7 +1,1 @@
-Classes
-
-this
-
-get
-
-set
+Destructuring Assingments

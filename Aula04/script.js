@@ -39,3 +39,11 @@ const jose = {
 };
 
 console.log(jose);
+
+// rest parameters
+
+const showName = (...fullName) => {
+  console.log(fullName);
+};
+showName("José", "Caldas");
+// expected output: Array ['José', 'Caldas']
